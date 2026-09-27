@@ -1,0 +1,8 @@
+[
+  {"city": "Singapore", "name": "Harbourlight City Hotel", "price_per_night": 6800, "currency": "INR", "rating": 4.4},
+  {"city": "Singapore", "name": "Orchard Budget Stay", "price_per_night": 3900, "currency": "INR", "rating": 3.8},
+  {"city": "Singapore", "name": "Riverside Garden Inn", "price_per_night": 5200, "currency": "INR", "rating": 4.1},
+  {"city": "Bangkok", "name": "Siam Market Hotel", "price_per_night": 3500, "currency": "INR", "rating": 4.0},
+  {"city": "Munnar", "name": "Cardamom Hills Lodge", "price_per_night": 4200, "currency": "INR", "rating": 4.3},
+  {"city": "Kochi", "name": "Backwater Courtyard", "price_per_night": 3200, "currency": "INR", "rating": 4.2}
+]

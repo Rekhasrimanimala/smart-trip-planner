@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Smart Trip Planner: tests",
+      "type": "shell",
+      "command": "C:/Users/THEBEST/AppData/Local/Programs/Python/Python313/python3.13t.exe",
+      "args": ["-m", "pytest", "-q"],
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Smart Trip Planner: install frontend",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["install"],
+      "options": {"cwd": "${workspaceFolder}/frontend"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Smart Trip Planner: build frontend",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["run", "build"],
+      "options": {"cwd": "${workspaceFolder}/frontend"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Smart Trip Planner: initialize RAG",
+      "type": "shell",
+      "command": "C:/Users/THEBEST/AppData/Local/Programs/Python/Python313/python3.13t.exe",
+      "args": ["-m", "backend.rag.ingest"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Smart Trip Planner: backend",
+      "type": "shell",
+      "command": "C:/Users/THEBEST/AppData/Local/Programs/Python/Python313/python3.13t.exe",
+      "args": ["-m", "uvicorn", "backend.main:app", "--reload", "--port", "8000"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Smart Trip Planner: frontend",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["run", "dev"],
+      "options": {"cwd": "${workspaceFolder}/frontend"},
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

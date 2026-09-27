@@ -1,0 +1,3 @@
+# Travel insurance basics
+
+Travel insurance policies vary. Before buying, read the policy wording, exclusions, claim limits and emergency contact instructions. Check whether the policy covers medical treatment, emergency evacuation, trip cancellation or interruption, baggage loss, and activities you plan to do. Pre-existing conditions, weather disruption, unattended belongings and adventure activities may be excluded or limited. Keep receipts and required documentation for claims, and contact the insurer's assistance line in an emergency. Insurance does not replace checking official travel advisories or entry requirements.

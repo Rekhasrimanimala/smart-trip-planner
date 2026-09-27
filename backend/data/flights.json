@@ -1,0 +1,7 @@
+[
+  {"origin": "Chennai", "destination": "Singapore", "airline": "Demo Airways", "flight_number": "DA101", "departure": "08:00", "arrival": "14:30", "price": 25000, "currency": "INR"},
+  {"origin": "Chennai", "destination": "Singapore", "airline": "Budget Connect", "flight_number": "BC205", "departure": "22:10", "arrival": "05:15", "price": 19000, "currency": "INR"},
+  {"origin": "Delhi", "destination": "Singapore", "airline": "Demo Airways", "flight_number": "DA220", "departure": "10:20", "arrival": "18:05", "price": 28000, "currency": "INR"},
+  {"origin": "Mumbai", "destination": "Bangkok", "airline": "Budget Connect", "flight_number": "BC310", "departure": "07:45", "arrival": "13:10", "price": 17000, "currency": "INR"},
+  {"origin": "Chennai", "destination": "Kochi", "airline": "Demo Airways", "flight_number": "DA412", "departure": "09:00", "arrival": "10:20", "price": 6500, "currency": "INR"}
+]
